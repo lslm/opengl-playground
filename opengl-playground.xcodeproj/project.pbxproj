@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		44DF1BF2265AFA6800F086AB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44DF1BF1265AFA6800F086AB /* main.cpp */; };
-		44DF1BFC265AFC2000F086AB /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 44DF1BFB265AFC2000F086AB /* glad.c */; };
 		44DF1C01265AFC7D00F086AB /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DF1C00265AFC7D00F086AB /* libglfw.3.3.dylib */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		44DF1BEE265AFA6800F086AB /* opengl-playground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "opengl-playground"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DF1BF1265AFA6800F086AB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		44DF1BF9265AFABA00F086AB /* opengl-playground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "opengl-playground.entitlements"; sourceTree = "<group>"; };
-		44DF1BFB265AFC2000F086AB /* glad.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
 		44DF1C00265AFC7D00F086AB /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../usr/local/Cellar/glfw/3.3.4/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +64,6 @@
 			children = (
 				44DF1BF9265AFABA00F086AB /* opengl-playground.entitlements */,
 				44DF1BF1265AFA6800F086AB /* main.cpp */,
-				44DF1BFB265AFC2000F086AB /* glad.c */,
 			);
 			path = "opengl-playground";
 			sourceTree = "<group>";
@@ -136,7 +133,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				44DF1BF2265AFA6800F086AB /* main.cpp in Sources */,
-				44DF1BFC265AFC2000F086AB /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
